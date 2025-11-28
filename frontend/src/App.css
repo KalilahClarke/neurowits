@@ -1,0 +1,9 @@
+/* Page wrapper */
+.page-wrapper {
+  min-height: 100vh;
+  min-width: 100wh;
+  background: linear-gradient(to bottom, #ffffff, #f1f5f9, #e2e8f0);
+  color: #0f172a;
+  font-family: system-ui, sans-serif;
+}
+

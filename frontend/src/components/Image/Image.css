@@ -1,0 +1,79 @@
+.image-row {
+  /* display: flex; */
+  /* optional: center them or space them out */
+  justify-content: center; /* or space-between, etc. */
+  align-items: center;
+  display: flex;
+  height: 100%;
+  width: 90%;
+  margin: auto;
+  padding: 0 3rem;
+}
+
+img {
+  height: 98%;
+}
+
+img.img2 {
+  left: 20px; /* shift second image slightly */
+  z-index: 2;
+}
+
+img.img3 {
+  left: 40px;
+  z-index: 3;
+}
+
+/* CARD WRAPPER */
+.card {
+  width: 20rem;
+  height: 23rem;
+  background: #fff;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+  padding: 1.5%;
+  margin: 1rem auto;
+  position: relative;
+  top: -12rem;
+}
+
+
+/* OVERLAP EFFECT */
+img:nth-child(1) {
+  /* transform: translateX(-40px); */
+  z-index: 1;
+}
+
+img:nth-child(2) {
+  z-index: 2;
+}
+
+img:nth-child(3) {
+  /* transform: translateX(40px); */
+  z-index: 1;
+}
+
+/* HOVER EFFECT */
+.card:hover {
+  transform: scale(1.05);
+  z-index: 3;
+}
+
+/* TEXT CONTENT */
+.card-content h2 {
+  margin: 0 0 10px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.card-content p {
+  margin: 0;
+  color: #555;
+  line-height: 1.5;
+}
+
+
+.imageContainer{
+  height: 25rem;
+}

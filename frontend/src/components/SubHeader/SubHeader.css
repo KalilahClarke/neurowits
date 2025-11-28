@@ -1,0 +1,9 @@
+.nav-links{
+    flex-direction: row-reverse;
+    padding: 2% 0px;
+    padding-right: 7%;
+    background-color: #D6DFD9;
+    position: sticky;
+    top: 0;
+    z-index: 100;   
+}
