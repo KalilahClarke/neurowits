@@ -1,8 +1,9 @@
 
-
+import Home from '../Home/Home'
 const Dashboard = () => {
     return (
       <>
+        <Home/>
       </>
     );
   }

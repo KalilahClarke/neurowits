@@ -35,7 +35,7 @@ img.img3 {
   padding: 1.5%;
   margin: 1rem auto;
   position: relative;
-  top: -12rem;
+  top: -8rem;
 }
 
 
@@ -75,5 +75,5 @@ img:nth-child(3) {
 
 
 .imageContainer{
-  height: 25rem;
+  height: 18rem;
 }

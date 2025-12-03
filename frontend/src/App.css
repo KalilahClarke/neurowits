@@ -7,3 +7,9 @@
   font-family: system-ui, sans-serif;
 }
 
+iframe{
+  height: 80vh;
+  width: 100vw;
+  border: none;
+}
+

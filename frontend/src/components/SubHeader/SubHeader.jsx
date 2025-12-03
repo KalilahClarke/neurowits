@@ -6,9 +6,9 @@ import './SubHeader.css'
 const SubHeader = () => {
     return (
         <nav className="nav-links">
-        <a href="#blog">Blog</a>
-        <Link to="/our-team">Our Team</Link>
-        <a href="#Solutions">Solutions</a>
+        <Link to='/blog'>Blog</Link>
+        <Link to='/our-team'>Our Team</Link>
+        <Link to='/services'>Services</Link>
         <a href="#process">How it works</a>
         <a href="#contact" className="btn-primary">Get a Demo</a>
       </nav>

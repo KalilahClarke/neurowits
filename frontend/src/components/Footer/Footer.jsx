@@ -13,10 +13,10 @@ const Footer = () => {
           <h4>Quick Links</h4>
           <ul>
             <li>
-              <a href="#">Home</a>
+              <a href="/">Home</a>
             </li>
             <li>
-              <a href="#">Services</a>
+              <a href="/services">Services</a>
             </li>
             <li>
               <a href="#">Contact</a>
@@ -31,13 +31,13 @@ const Footer = () => {
           <h4>Connect</h4>
           <ul>
             <li>
-              <a href="#">Facebook</a>
+              <a href="https://www.facebook.com/">Facebook</a>
             </li>
             <li>
-              <a href="#">Instagram</a>
+              <a href="https://www.instagram.com/">Instagram</a>
             </li>
             <li>
-              <a href="#">LinkedIn</a>
+              <a href="https://www.linkedin.com/">LinkedIn</a>
             </li>
           </ul>
         </div>

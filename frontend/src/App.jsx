@@ -4,10 +4,10 @@ import "./App.css";
 import Header from "./components/Header/Header";
 import SubHeader from "./components/SubHeader/SubHeader";
 import Dashboard from "./components/Dashboard/Dashboard";
-import Home from "./components/Home/Home"
-import Footer from "./components/Footer/Footer";
-
 import Team from "./components/Team/Team";
+import Blog from "./components/Blog/Blog";
+import Services from "./components/Services/Services";
+import Footer from "./components/Footer/Footer";
 
 function App() {
 
@@ -17,8 +17,11 @@ function App() {
         <Header />
         <SubHeader />
         <Routes>
-              <Route path="/" element={<Home />} />
+              <Route path="/" element={<Dashboard />} />
               <Route path="/Our-Team" element={<Team />} />
+              <Route path="/Blog" element={<Blog />} />
+              <Route path="/Services" element={<Services />} />
+
         </Routes>
         <Footer />
       </div>

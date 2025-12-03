@@ -25,7 +25,7 @@
 .TopSolution{
     width: 30vw;
     background: #f4db6b;
-    height: 13vw;
+    height: 15vw;
     border: 1px solid #d0d0d0;
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.12);
@@ -42,11 +42,41 @@
 
 .Solutions{
     height: 30rem;
-    background: #586570;
+    padding-bottom: 6rem;
 }
 
 .TopContainer{
     display: flex;
-    padding: 3rem 5rem 0rem 5rem;
+    padding: 1rem 5rem 0rem 5rem;
 }
 
+.solution-title{
+    color: black;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 1.2;
+    padding: 1.5rem
+}
+
+.v-border-container {
+    position: relative;
+    overflow: hidden;
+    background-color: #bec2c4;
+  }
+  
+  .v-border-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%; 
+    transform: translateX(-50%); 
+    width: 0;
+    height: 0;
+    border-left: 5rem solid transparent; 
+    border-right: 5rem solid transparent; 
+    border-top: 3rem solid #eef2f8; 
+  }
+
+
+
+  
